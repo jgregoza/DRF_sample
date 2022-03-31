@@ -46,7 +46,6 @@ DJANGO_APPS = (
 )
 
 LOCAL_APPS = (
-    'applications.home',
     'applications.persona',
 )
 
