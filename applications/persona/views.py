@@ -25,8 +25,9 @@ class PersonaListView(ListView):
     def get_queryset(self):
         return Person.objects.all()
 
+# API's Generic views
 
-class PersonListApiView(ListAPIView):  # API's Generic views
+class PersonListApiView(ListAPIView):  
     """Searizacion"""
     serializer_class = PersonSerializer
 
