@@ -130,3 +130,5 @@ Thumbs.db
 
 # Visual Studio Code
 .vscode
+
+secret.json
