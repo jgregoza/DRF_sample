@@ -18,7 +18,7 @@ from .models import Person
 from .serializers import PersonSerializer
 
 
-class PersonaListView(ListView):
+class PersonListView(ListView):
     template_name = "persona/lista.html"
     context_object_name = "personas"
 
