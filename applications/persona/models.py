@@ -11,7 +11,7 @@ class Person(TimeStampedModel):
     full_name = models.CharField("Nombres", max_length=50)
     job = models.CharField("Trabajo", max_length=30, blank=True)
     email = models.EmailField(blank=True, null=True)
-    phone = models.CharField("telefono", max_length=15, blank=True)
+    phone = models.CharField("Telefono", max_length=15, blank=True)
 
     class Meta:
         verbose_name = "Persona"
